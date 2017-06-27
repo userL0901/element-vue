@@ -71,7 +71,18 @@
     </div>
   </div>
   <div class="footer">
-    <div class="font"><i class="icon iconfont">&#xe600;</i></div>
+    <div class="font">
+      <i class="icon iconfont">&#xe600;</i>
+    </div>
+    <div class="price">
+      ￥00
+    </div>
+    <div class="delivery-cost">
+      另需配送费￥4元
+    </div>
+    <div class="currency">
+      ￥20起送
+    </div>
   </div>
 </div>
 

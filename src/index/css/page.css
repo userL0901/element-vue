@@ -195,22 +195,24 @@ header {
         background: url("../../index/img/page (2).png") 100% 100%;
         background-size: 100% 100%; }
       .swiper-right .message .message-main ul {
-        font-size: 0.42667rem; }
+        position: relative; }
         .swiper-right .message .message-main ul li:nth-child(1) {
           width: 100%;
-          margin: 0.08533rem 2.98667rem;
+          position: relative;
+          top: 0.08533rem;
+          left: 0.21333rem;
           font-size: 0.59733rem;
           color: #07111b;
           line-height: 0.59733rem; }
         .swiper-right .message .message-main ul li:nth-child(2) {
           font-size: 0.42667rem;
           color: #93999f;
-          margin: 0.32rem 2.98667rem; }
+          margin: 0.32rem 0 0 2.98667rem; }
         .swiper-right .message .message-main ul li:nth-child(3) span {
           display: inline-block;
           font-size: 0.42667rem;
           color: #93999f;
-          margin: 0.04267rem 0.512rem 0 0.21333rem; }
+          margin: 0 0.512rem 0 0.21333rem; }
         .swiper-right .message .message-main ul li:nth-child(4) span:nth-child(1) {
           display: inline-block;
           font-size: 0.59733rem;
@@ -225,7 +227,7 @@ header {
           font-weight: 700;
           text-decoration: line-through; }
         .swiper-right .message .message-main ul li:nth-child(4) span:nth-child(3) {
-          margin-left: 1.92rem;
+          margin-left: 1.49333rem;
           display: inline-block;
           text-align: center;
           line-height: 0.81067rem;
@@ -236,7 +238,10 @@ header {
           color: #00a0dc;
           border: 2px solid #00a0dc; }
         .swiper-right .message .message-main ul li:nth-child(4) span:nth-child(4) {
-          padding: 0.32rem; }
+          padding: 0.512rem;
+          font-size: 0.42667rem;
+          color: #93999f;
+          line-height: 1.024rem; }
         .swiper-right .message .message-main ul li:nth-child(4) span:nth-child(5) {
           display: inline-block;
           text-align: center;
@@ -261,10 +266,36 @@ header {
     height: 1.87733rem;
     border-radius: 50%;
     margin-left: 0.768rem;
-    border: 10px solid #141d27;
-    background-color: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.2);
     text-align: center;
-    line-height: 1.87733rem; }
+    line-height: 1.87733rem;
+    float: left; }
+  .footer .price {
+    padding-left: 0.768rem;
+    font-size: 0.68267rem;
+    float: left;
+    color: rgba(255, 255, 255, 0.4);
+    font-weight: 700;
+    line-height: 1.024rem;
+    margin-top: 0.512rem; }
+  .footer .delivery-cost {
+    float: left;
+    font-size: 0.68267rem;
+    line-height: 1.024rem;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.4);
+    margin: 0.512rem;
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    padding-left: 0.512rem; }
+  .footer .currency {
+    float: right;
+    font-size: 0.512rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.4);
+    font-weight: 700;
+    line-height: 1.024rem;
+    padding: 0.55467rem;
+    background-color: rgba(255, 255, 255, 0.2); }
 
 .iconfont {
   font-family: "iconfont" !important;

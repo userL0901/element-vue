@@ -227,10 +227,12 @@ header{
         background-size: 100% 100%;
       }
       ul{
-        font-size: rem(20);
+        position: relative;
         li:nth-child(1){
           width: 100%;
-          margin: rem(4) rem(140);
+          position: relative;
+          top:rem(4);
+          left: rem(10);
           font-size: rem(28);
           color: rgb(7,17,27);
           line-height: rem(28);
@@ -238,14 +240,14 @@ header{
         li:nth-child(2){
           font-size: rem(20);
           color: rgb(147,153,159);
-          margin: rem(15) rem(140);
+          margin: rem(15) 0 0 rem(140);
         }
         li:nth-child(3){
           span{
             display: inline-block;
             font-size: rem(20);
             color: rgb(147,153,159);
-            margin: rem(2) rem(24) 0 rem(10);
+            margin: 0 rem(24) 0 rem(10);
           }
         }
         li:nth-child(4){
@@ -265,7 +267,7 @@ header{
             text-decoration: line-through;
           }
           span:nth-child(3){
-            margin-left: rem(90);
+            margin-left: rem(70);
             display: inline-block;
             text-align: center;
             line-height: rem(38);
@@ -277,7 +279,10 @@ header{
             border: 2px solid #00a0dc;
           }
           span:nth-child(4){
-            padding: rem(15);
+            padding: rem(24);
+            font-size: rem(20);
+            color: rgb(147,153,159);
+            line-height: rem(48);
           }
           span:nth-child(5){
             display: inline-block;
@@ -308,10 +313,39 @@ header{
     height: rem(88);
     border-radius: 50%;
     margin-left: rem(36);
-    border: 10px solid #141d27;
-    background-color: rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.2);
     text-align: center;
     line-height: rem(88);
+    float: left;
+  }
+  .price{
+    padding-left: rem(36);
+    font-size: rem(32);
+    float: left;
+    color: rgba(255,255,255,0.4);
+    font-weight: 700;
+    line-height: rem(48);
+    margin-top: rem(24);
+  }
+  .delivery-cost{
+    float: left;
+    font-size: rem(32);
+    line-height: rem(48);
+    font-weight: 200;
+    color: rgba(255,255,255,0.4);
+    margin: rem(24);
+    border-left: 1px solid rgba(255,255,255,0.1);
+    padding-left: rem(24);
+  }
+  .currency{
+    float: right;
+    font-size: rem(24);
+    text-align: center;
+    color: rgba(255,255,255,0.4);
+    font-weight: 700;
+    line-height: rem(48);
+    padding: rem(26);
+    background-color: rgba(255, 255, 255, 0.2);
   }
 }
 .iconfont {
