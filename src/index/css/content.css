@@ -1,0 +1,124 @@
+.swiper-left {
+  width: 3.41333rem;
+  background: #f3f5f7;
+  float: left;
+  font-size: 0.512rem;
+  color: #4d555d;
+  font-weight: 200; }
+  .swiper-left .goods-left {
+    overflow: auto;
+    height: 19.2rem; }
+    .swiper-left .goods-left div span {
+      display: inline-block;
+      height: 2.304rem;
+      line-height: 2.304rem;
+      width: 2.38933rem;
+      padding: 0rem 0.08533rem 0.21333rem 0.08533rem;
+      border-bottom: 1px solid rgba(7, 17, 27, 0.1);
+      margin-left: 0.512rem; }
+      .swiper-left .goods-left div span img {
+        width: 0.64rem;
+        height: 0.64rem;
+        position: relative;
+        top: 0.10667rem; }
+    .swiper-left .goods-left .active {
+      background: #fff; }
+    .swiper-left .goods-left .line {
+      line-height: 1.024rem;
+      padding-top: 0.64rem;
+      border: none; }
+
+.big-left {
+  height: 21.33333rem;
+  overflow: auto; }
+  .big-left .swiper-right {
+    float: left;
+    width: 11.52rem; }
+    .big-left .swiper-right .right .nav {
+      width: 100%;
+      background: #f3f5f7; }
+      .big-left .swiper-right .right .nav div {
+        height: 1.10933rem;
+        display: inline-block;
+        border-left: 4px solid #d9dde1;
+        padding-left: 0.59733rem;
+        font-size: 0.512rem;
+        color: #93999f;
+        font-weight: normal;
+        line-height: 1.32267rem; }
+    .big-left .swiper-right .right .message {
+      height: 4.69333rem;
+      background: #fff;
+      position: relative; }
+      .big-left .swiper-right .right .message .message-main {
+        position: absolute;
+        top: 0.768rem;
+        left: 0.768rem;
+        right: 0.768rem;
+        bottom: 0.768rem;
+        width: 10.66667rem; }
+        .big-left .swiper-right .right .message .message-main .message-logo {
+          float: left;
+          width: 2.73067rem;
+          height: 2.73067rem;
+          background: url("../../index/img/page (2).png") 100% 100%;
+          background-size: 100% 100%; }
+        .big-left .swiper-right .right .message .message-main ul {
+          position: relative; }
+          .big-left .swiper-right .right .message .message-main ul li:nth-child(1) {
+            width: 100%;
+            position: relative;
+            top: 0.08533rem;
+            left: 0.21333rem;
+            font-size: 0.59733rem;
+            color: #07111b;
+            line-height: 0.59733rem; }
+          .big-left .swiper-right .right .message .message-main ul li:nth-child(2) {
+            font-size: 0.42667rem;
+            color: #93999f;
+            margin: 0.32rem 0 0 2.98667rem; }
+          .big-left .swiper-right .right .message .message-main ul li:nth-child(3) span {
+            display: inline-block;
+            font-size: 0.42667rem;
+            color: #93999f;
+            margin: 0 0.512rem 0 0.21333rem; }
+          .big-left .swiper-right .right .message .message-main ul li:nth-child(4) span:nth-child(1) {
+            display: inline-block;
+            font-size: 0.59733rem;
+            color: #f01414;
+            margin-top: 0.42667rem;
+            font-weight: 700; }
+          .big-left .swiper-right .right .message .message-main ul li:nth-child(4) span:nth-child(2) {
+            padding-left: 0.21333rem;
+            font-size: 0.42667rem;
+            color: #93999f;
+            line-height: 1.024rem;
+            font-weight: 700;
+            text-decoration: line-through; }
+          .big-left .swiper-right .right .message .message-main ul li:nth-child(4) span:nth-child(3) {
+            margin-left: 1.49333rem;
+            display: inline-block;
+            text-align: center;
+            line-height: 0.81067rem;
+            font-size: 0.46933rem;
+            border-radius: 50%;
+            width: 0.85333rem;
+            height: 0.85333rem;
+            color: #00a0dc;
+            border: 2px solid #00a0dc; }
+          .big-left .swiper-right .right .message .message-main ul li:nth-child(4) span:nth-child(4) {
+            padding: 0.512rem;
+            font-size: 0.42667rem;
+            color: #93999f;
+            line-height: 1.024rem; }
+          .big-left .swiper-right .right .message .message-main ul li:nth-child(4) span:nth-child(5) {
+            display: inline-block;
+            text-align: center;
+            line-height: 0.81067rem;
+            font-size: 0.46933rem;
+            border-radius: 50%;
+            width: 0.85333rem;
+            height: 0.85333rem;
+            background: #00a0dc;
+            color: #fff;
+            border: 2px solid #00a0dc; }

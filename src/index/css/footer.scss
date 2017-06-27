@@ -1,0 +1,59 @@
+@function rem($px){
+  @return $px/46.875+rem
+}
+.footer{
+  width:100%;
+  height:rem(96);
+  background: #141d27;
+  position: fixed;
+  bottom:rem(0);
+  left:0;
+  .footer-circle{
+    width:rem(116);
+    height:rem(116);
+    background:#141d27 ;
+    border-radius: 50%;
+    margin-top: rem(-25);
+    margin-left: rem(36);
+    border:1px solid transparent;
+    .footer-small-circle{
+      width:rem(90);
+      height:rem(90);
+      text-align: center;
+      line-height: rem(90);
+      background: #2b343c;
+      border-radius: 50%;
+      margin-left: rem(12);
+      margin-top: rem(10);
+    }
+  }
+  .price{
+    font-size: rem(32);
+    color:rgba(255,255,255,0.4);
+    font-weight: 700;
+    line-height: rem(96);
+    //border-right:1px solid rgba(255,255,255,0.1);
+    margin-top: rem(-100);
+    margin-left: rem(170);
+
+  }
+  .else{
+    font-size: rem(32);
+    color:rgba(255,255,255,0.4);
+    font-weight: 500;
+    line-height: rem(96);
+    margin-top: rem(-95);
+    margin-left: rem(248);
+  }
+  .footer-right{
+    width:rem(210);
+    height:rem(96);
+    font-size: rem(24);
+    color:rgba(255,255,255,0.4);
+    line-height: rem(96);
+    background: #2b333b;
+    margin-top: rem(-90);
+    margin-left: rem(500);
+    text-align: center;
+  }
+}

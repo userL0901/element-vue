@@ -1,0 +1,156 @@
+@function rem($px){
+  @return $px/46.875+rem
+}
+.swiper-left{
+  width: rem(160);
+  background: #f3f5f7;
+  float: left;
+  font-size: rem(24);
+  color: rgb(77,85,93);
+  font-weight: 200;
+  .goods-left{
+    overflow: auto;
+    height: rem(900);
+    div{
+      span{
+        display: inline-block;
+        height: rem(108);
+        line-height: rem(108);
+        width: rem(112);
+        padding: rem(0) rem(4) rem(10) rem(4);
+        border-bottom: 1px solid rgba(7,17,27,0.1);
+        margin-left: rem(24);
+        img{
+          width: rem(30);
+          height: rem(30);
+          position: relative;
+          top:rem(5);
+        }
+      }
+    }
+    .active{
+      background: #fff;
+    }
+    .line{
+      line-height: rem(48);
+      padding-top: rem(30);
+      border:none;
+    }
+  }
+}
+.big-left{
+  height: rem(1000);
+  overflow: auto;
+  .swiper-right{
+    float: left;
+    width: rem(540);
+    .right{
+      .nav{
+        width: 100%;
+        background: #f3f5f7;
+        div{
+          height: rem(52);
+          display: inline-block;
+          border-left: 4px solid #d9dde1;
+          padding-left: rem(28);
+          font-size: rem(24);
+          color: rgb(147,153,159);
+          font-weight: normal;
+          line-height: rem(62);
+        }
+      }
+      .message{
+        height: rem(220);
+        background: #fff;
+        position: relative;
+        .message-main{
+          position: absolute;
+          top:rem(36);
+          left: rem(36);
+          right:rem(36);
+          bottom: rem(36);
+          width: rem(500);
+          .message-logo{
+            float: left;
+            width: rem(128);
+            height: rem(128);
+            background: url("../../index/img/page (2).png") 100% 100%;
+            background-size: 100% 100%;
+          }
+          ul{
+            position: relative;
+            li:nth-child(1){
+              width: 100%;
+              position: relative;
+              top:rem(4);
+              left: rem(10);
+              font-size: rem(28);
+              color: rgb(7,17,27);
+              line-height: rem(28);
+            }
+            li:nth-child(2){
+              font-size: rem(20);
+              color: rgb(147,153,159);
+              margin: rem(15) 0 0 rem(140);
+            }
+            li:nth-child(3){
+              span{
+                display: inline-block;
+                font-size: rem(20);
+                color: rgb(147,153,159);
+                margin: 0 rem(24) 0 rem(10);
+              }
+            }
+            li:nth-child(4){
+              span:nth-child(1){
+                display: inline-block;
+                font-size: rem(28);
+                color: rgb(240,20,20);
+                margin-top: rem(20);
+                font-weight: 700;
+              }
+              span:nth-child(2){
+                padding-left: rem(10);
+                font-size: rem(20);
+                color: rgb(147,153,159);
+                line-height: rem(48);
+                font-weight: 700;
+                text-decoration: line-through;
+              }
+              span:nth-child(3){
+                margin-left: rem(70);
+                display: inline-block;
+                text-align: center;
+                line-height: rem(38);
+                font-size: rem(22);
+                border-radius: 50%;
+                width: rem(40);
+                height: rem(40);
+                color: #00a0dc;
+                border: 2px solid #00a0dc;
+              }
+              span:nth-child(4){
+                padding: rem(24);
+                font-size: rem(20);
+                color: rgb(147,153,159);
+                line-height: rem(48);
+              }
+              span:nth-child(5){
+                display: inline-block;
+                text-align: center;
+                line-height: rem(38);
+                font-size: rem(22);
+                border-radius: 50%;
+                width: rem(40);
+                height: rem(40);
+                background: #00a0dc;
+                color: #fff;
+                border: 2px solid #00a0dc;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
