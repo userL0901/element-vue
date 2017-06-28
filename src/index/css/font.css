@@ -1,0 +1,17 @@
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: rem(48);
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.4);
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale; }
+
+@font-face {
+  font-family: "iconfont";
+  src: url("../../index/font/iconfont.eot");
+  /* IE9*/
+  src: url("../../index/font/iconfont.eot#iefix") format("embedded-opentype"), url("../../index/font/iconfont.woff") format("woff"), url("../../index/font/iconfont.ttf") format("truetype"), url("../../index/font/iconfont.svg#iconfont") format("svg");
+  /* iOS 4.1- */ }
+
+/*# sourceMappingURL=font.css.map */

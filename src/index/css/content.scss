@@ -11,6 +11,8 @@
   .goods-left{
     overflow: auto;
     height: rem(900);
+    position: relative;
+    bottom: rem(5);
     div{
       span{
         display: inline-block;
@@ -41,6 +43,9 @@
 .big-left{
   height: rem(1000);
   overflow: auto;
+  position: relative;
+  top:rem(2);
+  bottom: rem(550);
   .swiper-right{
     float: left;
     width: rem(540);
@@ -74,8 +79,10 @@
             float: left;
             width: rem(128);
             height: rem(128);
-            background: url("../../index/img/page (2).png") 100% 100%;
-            background-size: 100% 100%;
+            img{
+              width: rem(128);
+              height: rem(128);
+            }
           }
           ul{
             position: relative;
@@ -103,6 +110,7 @@
             }
             li:nth-child(4){
               span:nth-child(1){
+                //width: rem(60);
                 display: inline-block;
                 font-size: rem(28);
                 color: rgb(240,20,20);
@@ -110,6 +118,7 @@
                 font-weight: 700;
               }
               span:nth-child(2){
+                //width: rem(90);
                 padding-left: rem(10);
                 font-size: rem(20);
                 color: rgb(147,153,159);
@@ -118,7 +127,9 @@
                 text-decoration: line-through;
               }
               span:nth-child(3){
-                margin-left: rem(70);
+                position: absolute;
+                right:rem(145);
+                bottom:0;
                 display: inline-block;
                 text-align: center;
                 line-height: rem(38);
@@ -130,12 +141,18 @@
                 border: 2px solid #00a0dc;
               }
               span:nth-child(4){
+                position: absolute;
+                right:rem(80);
+                top:rem(75);
                 padding: rem(24);
                 font-size: rem(20);
                 color: rgb(147,153,159);
                 line-height: rem(48);
               }
               span:nth-child(5){
+                position: absolute;
+                right:rem(30);
+                bottom:0;
                 display: inline-block;
                 text-align: center;
                 line-height: rem(38);

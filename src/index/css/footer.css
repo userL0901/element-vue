@@ -4,7 +4,8 @@
   background: #141d27;
   position: fixed;
   bottom: 0rem;
-  left: 0; }
+  left: 0;
+  margin-top: 0.42667rem; }
   .footer .footer-circle {
     width: 2.47467rem;
     height: 2.47467rem;
